@@ -17,8 +17,8 @@ This is a dynamic and responsive form builder built with Angular and Drag & Drop
 
 1. Clone the Repository
 
-    - git clone https://github.com/Aravindhan9499/Zuper-app.git
-    - cd Zuper-app
+    - git clone https://github.com/Aravindhan9499/zuper.git
+    - cd zuper
 
 2. Install Dependencies
 
