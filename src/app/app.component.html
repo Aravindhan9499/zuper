@@ -1,0 +1,14 @@
+<div class="flex flex-col md:flex-row h-screen">
+    <!-- Left Panel: Field Groups (Collapses on small screens) -->
+    <app-field-groups class="w-full md:w-1/4 bg-white p-4 border-r shadow-md"></app-field-groups>
+  
+    <!-- Middle Panel: Form Elements (Takes most space) -->
+    <app-form-elements class="flex-1 p-4"></app-form-elements>
+  
+    <!-- Right Panel: Field Properties (Hides on small screens) -->
+    <app-field-properties class="w-full md:w-1/4 bg-white border-l p-4 shadow-md"></app-field-properties>
+  </div>
+  
+  <!-- Router for Navigation -->
+  <router-outlet />
+  

@@ -1,0 +1,13 @@
+<div class="p-4 border-r bg-white h-screen overflow-y-auto">
+  <div class="flex items-center justify-between">
+    <h2 class="text-lg font-semibold text-gray-700">Field Groups</h2>
+    <button (click)="addFormGroup()" class="text-blue-500 hover:underline">
+      + Create new
+    </button>
+  </div>
+  <div class="mt-4">
+    <button *ngFor="let group of formGroups" (click)="switchFormGroup(group.id)" class="block w-full text-left px-3 py-2 bg-gray-100 rounded mb-2 hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-400">
+      {{group.name}}
+    </button>
+  </div>
+</div>
